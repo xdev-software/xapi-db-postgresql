@@ -1,2 +1,5 @@
+## 6.0.1
+* Updated JDBC driver
+
 ## 6.0.0
-* Inital open-source release
+* Initial open-source release
