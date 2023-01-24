@@ -10,13 +10,13 @@
     <packaging>jar</packaging>
 
     <name>SqlEngine Database Adapter PostgreSQL</name>
-	<description>XAPI SqlEngine Database Adapter for PostgreSQL</description>
-	<url>https://github.com/xdev-software/xapi-db-postgresql</url>
+    <description>XAPI SqlEngine Database Adapter for PostgreSQL</description>
+    <url>https://github.com/xdev-software/xapi-db-postgresql</url>
 
     <scm>
-		<url>https://github.com/xdev-software/xapi-db-postgresql</url>
-		<connection>https://github.com/xdev-software/xapi-db-postgresql.git</connection>
-	</scm>
+        <url>https://github.com/xdev-software/xapi-db-postgresql</url>
+        <connection>https://github.com/xdev-software/xapi-db-postgresql.git</connection>
+    </scm>
 
     <inceptionYear>2003</inceptionYear>
 
@@ -87,17 +87,17 @@
     </distributionManagement>
 
     <dependencies>
-		<dependency>
-			<groupId>com.xdev-software</groupId>
-			<artifactId>xapi</artifactId>
-			<version>6.0.1</version>
-		</dependency>
+        <dependency>
+            <groupId>com.xdev-software</groupId>
+            <artifactId>xapi</artifactId>
+            <version>6.0.1</version>
+        </dependency>
 
-		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<version>42.5.1</version>
-		</dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.5.1</version>
+        </dependency>
     </dependencies>
 
     <build>
